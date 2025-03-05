@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Screentime_v_Mental_Health_Dataset",
+  "creator": [
+    {
+      "type": "Person",
+      "id": null,
+      "email": null,
+      "affiliation": "San Jose State University",
+      "name": "Wong, Natalie"
+    }
+  ],
+  "description": "data file",
+  "datePublished": "2023-07-01",
+  "keywords": ["Television--Psychological aspects", "Mental Health Services", "Mental Health", "Children", "Screen Time", "Mental Health", "Mental Health Services", "Child", "Child", "Preschool", "Infant", "Adolescent"],
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": "Public Domain",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": "Integer",
+      "name": "Screen Time",
+      "description": "Screen Time\tInteger\tN\t1\tAverage weekday hours of screen time per day.\n1=1 hour or less\n2=2 hours\n3=3 hours\n4=4 or more hours\t2"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Text",
+      "name": "Mental Health Professional Treatment",
+      "description": "Child either “Needs Treatment” or “Does Not Need Treatment”"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Text",
+      "name": "Mental Health Care – Not Received",
+      "description": "Mental Health Care – Not Received\tText\t\t23\tChild either “Needs Treatment” or “Does Not Need Treatment”\tDoes Not Need Treatment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Integer",
+      "name": "Age",
+      "description": "Age of child in years between 0 and 17"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Text",
+      "name": "Sex",
+      "description": "Sex of child:\n“Male” or “Female”"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "Screentime_v_Mental_Health_Dataset",
+      "contentUrl": "https://dataverse.harvard.edu/api/access/datafile/7226012",
+      "encodingFormat": "Excel"
+    }
+  ]
+}

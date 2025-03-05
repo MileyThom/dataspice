@@ -1,0 +1,11 @@
+fileName,variableName,description,unitText
+Screentime_v_Mental_Health_Dataset.xlsx,Screen Time,"Screen Time	Integer	N	1	Average weekday hours of screen time per day.
+1=1 hour or less
+2=2 hours
+3=3 hours
+4=4 or more hours	2",Integer
+Screentime_v_Mental_Health_Dataset.xlsx,Mental Health Professional Treatment,Child either “Needs Treatment” or “Does Not Need Treatment”,Text
+Screentime_v_Mental_Health_Dataset.xlsx,Mental Health Care – Not Received,Mental Health Care – Not Received	Text		23	Child either “Needs Treatment” or “Does Not Need Treatment”	Does Not Need Treatment,Text
+Screentime_v_Mental_Health_Dataset.xlsx,Age,Age of child in years between 0 and 17,Integer
+Screentime_v_Mental_Health_Dataset.xlsx,Sex,"Sex of child:
+“Male” or “Female”",Text
